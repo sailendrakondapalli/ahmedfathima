@@ -75,7 +75,7 @@ export function DigitalEnvelope() {
                 animate={{ height: isOpen ? "780px" : "80px" }}
                 transition={{ duration: 0.8, ease: [0.4, 0, 0.2, 1] }}
               >
-                <div className="absolute inset-0 bg-white/60" />
+                <div className="absolute inset-0 bg-white/88" />
                 <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(139,69,19,0.1) 2px, rgba(139,69,19,0.1) 4px)' }} />
                 <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-transparent via-[var(--islamic-gold)] to-transparent opacity-30" />
                 <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-transparent via-[var(--islamic-gold)] to-transparent opacity-30" />
@@ -109,7 +109,8 @@ export function DigitalEnvelope() {
                       initial={{ opacity: 0 }}
                       animate={isOpen ? { opacity: 1 } : { opacity: 0 }}
                       transition={{ delay: 0.5, duration: 0.3 }}
-                      className="text-base md:text-lg text-[var(--islamic-green)] leading-relaxed font-serif"
+                      className="text-base md:text-lg text-[var(--islamic-green)] leading-relaxed font-serif font-medium"
+                      style={{ textShadow: "0 1px 2px rgba(255,255,255,0.8)" }}
                     >
                       {isOpen && <TypewriterText text={invitationText} delay={0.5} speed={40} />}
                     </motion.p>
@@ -119,7 +120,12 @@ export function DigitalEnvelope() {
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={isOpen ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
                       transition={{ delay: 2.5, duration: 0.6 }}
-                      className="text-5xl md:text-7xl text-[var(--islamic-gold)] font-serif"
+                      className="text-5xl md:text-7xl font-bold font-serif"
+                      style={{
+                        color: '#b8860b',
+                        textShadow: '0 2px 4px rgba(0,0,0,0.15), 0 0 20px rgba(212,175,55,0.3)',
+                        WebkitTextStroke: '1px rgba(180,130,0,0.3)',
+                      }}
                     >
                       Nikkah
                     </motion.h2>
@@ -139,14 +145,14 @@ export function DigitalEnvelope() {
                       transition={{ delay: 3.5, duration: 0.3 }}
                       className="space-y-2"
                     >
-                      <p className="text-sm md:text-base text-[var(--muted-foreground)] leading-relaxed italic font-serif">
+                      <p className="text-sm md:text-base text-gray-700 leading-relaxed italic font-serif">
                         {isOpen && <TypewriterText text={`"${quranVerse}"`} delay={3.5} speed={30} />}
                       </p>
                       <motion.p
                         initial={{ opacity: 0 }}
                         animate={isOpen ? { opacity: 1 } : { opacity: 0 }}
                         transition={{ delay: 7, duration: 0.5 }}
-                        className="text-xs md:text-sm text-[var(--islamic-gold)] font-medium"
+                        className="text-xs md:text-sm text-amber-700 font-semibold"
                       >
                         — Quran 30:21
                       </motion.p>
@@ -159,11 +165,11 @@ export function DigitalEnvelope() {
                       transition={{ delay: 7.5, duration: 0.6 }}
                       className="space-y-1 pt-2"
                     >
-                      <p className="text-sm text-[var(--muted-foreground)] italic">With love & duas,</p>
-                      <p className="text-base md:text-lg text-[var(--islamic-green)] font-serif font-semibold">Dr. N. Imthiyaz Ahmed</p>
-                      <p className="text-[var(--islamic-gold)] text-sm">&</p>
-                      <p className="text-base md:text-lg text-[var(--islamic-green)] font-serif font-semibold">Dr. S. Rasool Fathima</p>
-                      <p className="text-xs text-[var(--muted-foreground)] mt-2 italic">2nd July 2026 · Chennai</p>
+                      <p className="text-sm text-gray-600 italic">With love & duas,</p>
+                      <p className="text-base md:text-lg text-[var(--islamic-green)] font-serif font-bold">Dr. N. Imthiyaz Ahmed</p>
+                      <p className="text-amber-700 text-sm font-bold">&</p>
+                      <p className="text-base md:text-lg text-[var(--islamic-green)] font-serif font-bold">Dr. S. Rasool Fathima</p>
+                      <p className="text-xs text-gray-500 mt-2 italic">2nd July 2026 · Chennai</p>
                     </motion.div>
 
                     {/* Footer ornament */}
