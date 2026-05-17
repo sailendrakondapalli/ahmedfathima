@@ -78,12 +78,16 @@ export function HeroSection() {
   return (
     <section
       className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 py-20"
-      style={{
-        backgroundImage: "url(/watching.jpeg)",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
     >
+      {/* Video background */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        src="/hero.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/60" />
 
