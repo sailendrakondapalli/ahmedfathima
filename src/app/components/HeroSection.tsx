@@ -178,21 +178,7 @@ export function HeroSection() {
           <div className="w-16 h-[1px] bg-gradient-to-l from-transparent to-amber-400/70" />
         </motion.div>
 
-        {/* D.A Monogram */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.9, delay: 0.3 }}
-          className="flex flex-col items-center gap-1"
-        >
-          <div className="w-32 h-[2px] bg-gradient-to-r from-transparent via-white/80 to-transparent" />
-          <p
-            className="text-5xl md:text-7xl font-normal text-white tracking-widest drop-shadow-[0_2px_16px_rgba(255,255,255,0.3)]"
-            style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}
-          >
-            D.A
-          </p>
-        </motion.div>
+       
 
         {/* Bismillah */}
         <motion.div
@@ -231,7 +217,7 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 1.35 }}
               className="text-base md:text-lg text-amber-300 font-medium tracking-widest drop-shadow-[0_1px_6px_rgba(212,175,55,0.7)]"
             >
-              M.B.B.S., D.A.
+              M.B.B.S., <span style={{ textDecoration: "overline" }}>D.A.</span>
               
             </motion.p>
           </div>
