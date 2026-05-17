@@ -202,7 +202,7 @@ export function Timeline() {
       address: "4, Whannels Road, Egmore, Chennai - 600008",
       mapUrl: "https://maps.google.com/?q=Shiraj+Hall+Whannels+Road+Egmore+Chennai",
       side: "right",
-      image: "/namazwof.jpeg",
+      image: "/nikkha.jpg",
     },
     {
       title: "Reception",
@@ -212,7 +212,7 @@ export function Timeline() {
       address: "Karur Bypass Road, Near Kalaingar Arivalayam, Trichy-2",
       mapUrl: "https://maps.google.com/?q=Rasi+Mahal+Karur+Bypass+Road+Trichy",
       side: "left",
-      image: "/writing.jpeg",
+      image: "/reception.jpg",
     },
   ];
 
