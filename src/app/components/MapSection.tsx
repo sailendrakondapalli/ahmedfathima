@@ -10,8 +10,8 @@ export function MapSection() {
   const venues = [
     {
       name: "Nikkah Ceremony",
-      address: "Shiraj Hall, 4, Whannels Road, Egmore, Chennai - 600008",
-      mapUrl: "https://maps.google.com/?q=Shiraj+Hall+Whannels+Road+Egmore+Chennai",
+      address: "Shiraz Hall, 14, Whannels Road, Egmore, Chennai - 600008",
+      mapUrl: "https://maps.google.com/?q=Shiraz+Hall+14+Whannels+Road+Egmore+Chennai",
       embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.8267!2d80.2577!3d13.0827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDA0JzU3LjciTiA4MMKwMTUnMjcuOCJF!5e0!3m2!1sen!2sin!4v1234567890"
     },
     {
