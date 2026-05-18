@@ -16,8 +16,8 @@ export function MapSection() {
     },
     {
       name: "Reception",
-      address: "Rasi Mahal, Karur Bypass Road, Near Kalaingar Arivalayam, Trichy-2",
-      mapUrl: "https://maps.google.com/?q=Rasi+Mahal+Karur+Bypass+Road+Trichy",
+      address: "Rasi Mahal, Karur Bypass Road, Near Kalaignar Arivalayam, Trichy-2",
+      mapUrl: "https://maps.google.com/?q=Rasi+Mahal+Karur+Bypass+Road+Kalaignar+Arivalayam+Trichy",
       embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5!2d78.6869!3d10.7905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDQ3JzI1LjgiTiA3OMKwNDEnMTIuOCJF!5e0!3m2!1sen!2sin!4v1234567890"
     }
   ];

@@ -209,8 +209,8 @@ export function Timeline() {
       date: "Sunday, 5th July 2026",
       time: "12:00 PM onwards",
       venue: "Rasi Mahal",
-      address: "Karur Bypass Road, Near Kalaingar Arivalayam, Trichy-2",
-      mapUrl: "https://maps.google.com/?q=Rasi+Mahal+Karur+Bypass+Road+Trichy",
+      address: "Karur Bypass Road, Near Kalaignar Arivalayam, Trichy-2",
+      mapUrl: "https://maps.google.com/?q=Rasi+Mahal+Karur+Bypass+Road+Kalaignar+Arivalayam+Trichy",
       side: "left",
       image: "/reception.jpg",
     },
@@ -300,7 +300,7 @@ export function Timeline() {
                         <img
                           src={event.image}
                           alt={event.title}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-cover object-top"
                         />
                         {/* subtle gold gradient at bottom of image */}
                         <div className="absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-white to-transparent" />
