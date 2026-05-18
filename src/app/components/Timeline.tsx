@@ -294,13 +294,14 @@ export function Timeline() {
                     transition={{ duration: 0.8, delay: 1.2 + index * 0.3 }}
                     className={event.side === "right" ? "text-right mt-0" : "order-2 mb-8"}
                   >
-                    <div className="bg-white rounded-2xl shadow-xl border-2 border-[var(--islamic-gold)]/30 hover:shadow-2xl hover:shadow-pink-200 transition-all duration-300 h-[340px] sm:h-[360px] overflow-hidden flex flex-col">
+                    <div className="bg-white rounded-2xl shadow-xl border-2 border-[var(--islamic-gold)]/30 hover:shadow-2xl hover:shadow-pink-200 transition-all duration-300 h-[340px] sm:h-[360px] md:h-[420px] overflow-hidden flex flex-col">
                       {/* Image — top 65% */}
                       <div className="relative flex-1 overflow-hidden">
                         <img
                           src={event.image}
                           alt={event.title}
-                          className="w-full h-full object-cover object-top"
+                          className="w-full h-full object-cover object-center"
+                          style={{ objectPosition: "center 20%" }}
                         />
                         {/* subtle gold gradient at bottom of image */}
                         <div className="absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-white to-transparent" />
