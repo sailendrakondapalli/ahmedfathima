@@ -23,6 +23,8 @@ export default function handler(req, res) {
   <meta property="og:image" content="https://ahmedfathima.vercel.app/holdinghands.jpeg" />
   <meta property="og:image:secure_url" content="https://ahmedfathima.vercel.app/holdinghands.jpeg" />
   <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Nikkah Invitation" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://ahmedfathima.vercel.app/holdinghands.jpeg" />

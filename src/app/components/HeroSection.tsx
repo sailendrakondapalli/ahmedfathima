@@ -87,6 +87,7 @@ export function HeroSection() {
         loop
         muted
         playsInline
+        ref={(el) => { if (el) el.playbackRate = 1.5; }}
       />
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/60" />
