@@ -204,7 +204,7 @@ export function IntroAnimation({ onComplete }: IntroAnimationProps) {
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
             >
-              🚪 Open the Doors
+              💌 Open Invitation
             </motion.button>
           </motion.div>
 
