@@ -1,9 +1,10 @@
 interface ParallaxSectionProps {
   imagePath: string;
   height?: string;
+  backgroundSize?: string;
 }
 
-export function ParallaxSection({ imagePath, height = "40vh" }: ParallaxSectionProps) {
+export function ParallaxSection({ imagePath, height = "40vh", backgroundSize = "cover" }: ParallaxSectionProps) {
   return (
     <div
       style={{
@@ -11,7 +12,7 @@ export function ParallaxSection({ imagePath, height = "40vh" }: ParallaxSectionP
         backgroundImage: `url(${imagePath})`,
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
-        backgroundSize: "cover",
+        backgroundSize,
         backgroundRepeat: "no-repeat",
         position: "relative",
       }}

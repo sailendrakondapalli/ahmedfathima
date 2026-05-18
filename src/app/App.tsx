@@ -112,7 +112,7 @@ export default function App() {
           <ParallaxSection imagePath="/holdinghands.jpeg" height="40vh" />
           <CountdownTimer />
           <DigitalEnvelope />
-          <ParallaxSection imagePath="/promis.jpeg" height="40vh" />
+          <ParallaxSection imagePath="/promis.jpeg" height="40vh" backgroundSize="contain" />
           <Timeline />
           <ParallaxSection imagePath="/namaz.jpeg" height="40vh" />
           <MapSection />
