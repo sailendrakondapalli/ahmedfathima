@@ -20,14 +20,14 @@ export default function handler(req, res) {
   <meta property="og:url" content="https://ahmedfathima.vercel.app/" />
   <meta property="og:title" content="Nikkah Invitation – Dr. Imthiyaz Ahmed &amp; Dr. Rasool Fathima" />
   <meta property="og:description" content="You are cordially invited to the Nikkah on 2nd July 2026 at Shiraz Hall, Chennai. Join us for this blessed occasion." />
-  <meta property="og:image" content="https://ahmedfathima.vercel.app/holdinghands.jpeg?v=2" />
-  <meta property="og:image:secure_url" content="https://ahmedfathima.vercel.app/holdinghands.jpeg?v=2" />
+  <meta property="og:image" content="https://ahmedfathima.vercel.app/namaz.jpeg?v=3" />
+  <meta property="og:image:secure_url" content="https://ahmedfathima.vercel.app/namaz.jpeg?v=3" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Nikkah Invitation" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://ahmedfathima.vercel.app/holdinghands.jpeg?v=2" />
+  <meta name="twitter:image" content="https://ahmedfathima.vercel.app/namaz.jpeg?v=3" />
 </head>
 <body></body>
 </html>`);
